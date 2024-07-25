@@ -1,0 +1,3 @@
+running  D01 
+
+finished A B C
