@@ -10,16 +10,16 @@
 ## 下载模型和数据
 
 需要git lfs
-'''shell
+```shell
 git lfs install
-'''
+```
 
 ### 下载数据集
 在tcdata目录下
 
-'''shell
+```shell
 git clone https://www.modelscope.cn/datasets/BJQW14B/bs_challenge_financial_14b_dataset.git
-'''
+```
 
 ### 下载模型
 在tcdata目录下
@@ -27,15 +27,15 @@ git clone https://www.modelscope.cn/datasets/BJQW14B/bs_challenge_financial_14b_
 
 如果显存大于32G，下载千问14Bchat
 
-'''shell
+```shell
 git clone https://www.modelscope.cn/TongyiFinance/Tongyi-Finance-14B-Chat.git
-'''
+```
 
 或者千问14Bchat-int4（显存大于16G）
 
-'''shell
+```shell
 git clone https://www.modelscope.cn/TongyiFinance/Tongyi-Finance-14B-Chat-Int4.git
-'''
+```
 
 
 ## 运行程序
